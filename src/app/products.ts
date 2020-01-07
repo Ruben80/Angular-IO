@@ -1,18 +1,18 @@
 export const products = [
   {
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: 'Super Nike Air Max 2000 Plus',
+    price: 249,
+    description: 'The best ones ever!'
   },
   {
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: 'Lasergun invisability shield',
+    price: 279,
+    description: 'The best solution for \'lil speed devils'
   },
   {
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    name: 'Instant coffee module',
+    price: 69,
+    description: 'Have your perfect tasty coffee with one push of a button '
   }
 ];
 

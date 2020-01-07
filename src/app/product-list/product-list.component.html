@@ -1,5 +1,28 @@
 <h2>Here you will find our latest cool products</h2>
 
+<div *ngFor="let product of products">
+
+  <h3>
+    <a [title]="'€ ' + product.price + ',-'">
+      {{ product.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+    
+  </p>
+
+  <button (click)="share()">
+  Share with friends
+</button>
+
+<app-product-alerts
+  [product]="product"
+  (notify)="onNotify()">
+  </app-product-alerts>
+
+</div>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
